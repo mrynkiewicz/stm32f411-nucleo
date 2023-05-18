@@ -2,7 +2,7 @@
  * i2c.c
  *
  *  Created on: May 7, 2023
- *      Author: Marcin Rynkiewicz
+ *  Author: Marcin Rynkiewicz
  */
 #include "stm32f4xx.h"
 
@@ -50,7 +50,6 @@ void I2C1_Init()
 	GPIOB->AFR[1] &= ~(1U<<5);
 	GPIOB->AFR[1] |= (1U<<6);
 	GPIOB->AFR[1] &= ~(1U<<7);
-
 
 	// enable clock for I2C1
 	RCC->APB1ENR |= I2C1EN;

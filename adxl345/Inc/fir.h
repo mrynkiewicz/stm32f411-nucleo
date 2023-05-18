@@ -2,7 +2,7 @@
  * fir.h
  *
  *  Created on: May 12 2023
- *      Author: Marcin Rynkiewicz
+ *  Author: Marcin Rynkiewicz
  */
 
 #ifndef FIR_H_

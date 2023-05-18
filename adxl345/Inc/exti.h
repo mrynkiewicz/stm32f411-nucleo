@@ -2,7 +2,7 @@
  * exti.h
  *
  *  Created on: 14 May 2023
- *      Author: Marcin Rynkiewicz
+ *  Author: Marcin Rynkiewicz
  */
 
 #ifndef EXTI_H_

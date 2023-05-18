@@ -2,7 +2,7 @@
  * i2c.h
  *
  *  Created on: May 7, 2023
- *      Author: Marcin Rynkiewicz
+ *  Author: Marcin Rynkiewicz
  */
 
 #ifndef I2C_H_

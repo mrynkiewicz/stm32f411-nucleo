@@ -2,7 +2,7 @@
  * adxsl345.c
  *
  *  Created on: May 7, 2023
- *      Author: Marcin Rynkiewicz
+ *  Author: Marcin Rynkiewicz
  */
 
 #include "adxl345.h"

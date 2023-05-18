@@ -2,7 +2,7 @@
  * adxl345.h
  *
  *  Created on: May 7, 2023
- *      Author: Marcin Rynkiewicz
+ *  Author: Marcin Rynkiewicz
  */
 
 #ifndef ADXL345_H_

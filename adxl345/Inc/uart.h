@@ -2,7 +2,7 @@
  * uart.h
  *
  *  Created on: May 11, 2023
- *      Author: DELL
+ *  Author: Marcin Rynkiewicz
  */
 
 #ifndef UART_H_
@@ -18,7 +18,7 @@
 
 
 
-#define SYS_FREQ		16000000
+#define SYS_FREQ		16000000 // by default stm32f411 nucleo is clocked with 16MHz HSI
 #define APB1_CLK		SYS_FREQ
 
 #define UART_BAUDRATE		115200

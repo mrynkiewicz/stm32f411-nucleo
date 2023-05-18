@@ -2,12 +2,12 @@
  * fir.c
  *
  *  Created on: May 12 2023
- *      Author: Marcin Rynkiewicz
+ *  Author: Marcin Rynkiewicz
  */
 
 #include "fir.h"
 
-// coeficients calculated using Phil's Solomony tool
+// coeficients calculated using Phil Salmony's tool - https://github.com/pms67/HadesFCS/tree/master/Filtering/FIRWinSyncDesign
 static float FIR_IMPULSE_RESPONSE[FIR_FILTER_LENGTH] =
 	{-0.0032906f,-0.0052635f,-0.0068811f,0.0000000f,0.0254209f,0.0724719f,0.1311260f,0.1805961f,0.2000000f,0.1805961f,0.1311260f,0.0724719f,0.0254209f,0.0000000f,-0.0068811f,-0.0052635f};
 
