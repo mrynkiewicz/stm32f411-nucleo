@@ -14,6 +14,8 @@
 #define SYSCFGEN		(1U<<14)
 #define GPIOCEN			(1U<<2)
 
+// pin PC7 will be used as an input for EXTI
+// on Nucleo board it's marked as D9 on CN5 socket
 void EXTIPC7_Init()
 {
 	// disable global interrupts

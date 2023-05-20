@@ -73,7 +73,7 @@ void I2C1_Init()
 	I2C1->CR1 |= CR1_PE;
 }
 
-void I2C_byteRead(char saddr, char maddr, char* data)
+void I2C_byteRead(uint8_t saddr, uint8_t maddr, uint8_t* data)
 {
 
 	// wait until bus is free
@@ -127,7 +127,7 @@ void I2C_byteRead(char saddr, char maddr, char* data)
 	*data++ = I2C1->DR;
 }
 
-void I2C_burstRead(char saddr, char maddr, int n, char* data)
+void I2C_burstRead(uint8_t saddr, uint8_t maddr, int n, uint8_t* data)
 {
 
 	/* Wait until bus not busy */
@@ -206,7 +206,7 @@ void I2C_burstRead(char saddr, char maddr, int n, char* data)
     }
 }
 
-void I2C_burstWrite(char saddr, char maddr, int n, char* data)
+void I2C_burstWrite(uint8_t saddr, uint8_t maddr, int n, uint8_t* data)
 {
 
 	// wait until bus is free
